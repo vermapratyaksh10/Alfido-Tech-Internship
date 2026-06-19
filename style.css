@@ -1,0 +1,54 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #08111f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: rgba(8, 17, 31, .9);
+    backdrop-filter: blur(8px);
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #08111f, #0d3b66, #1d4ed8);
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-custom {
+    background: #12233d;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.card-custom:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(29, 78, 216, .35);
+}
+
+.btn-primary {
+    background: #2563eb;
+    border: none;
+}
